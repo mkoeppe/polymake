@@ -422,7 +422,7 @@ sub compile_test_program {
 
 # Run the program previously build with `build_test_program'.
 sub run_test_program {
-   `$tempdir/polymake_${$}_configure`
+   `$tempdir/polymake_${$}_configure 2>&1`
 }
 
 END {
