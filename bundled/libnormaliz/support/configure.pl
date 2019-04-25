@@ -74,7 +74,9 @@ int main() {
 #include <vector>
 #include <fstream>
 #include <iostream>
+#ifdef _OPENMP
 #include <omp.h>
+#endif
 #include <gmpxx.h>
 #include <libnormaliz/libnormaliz.h>
 #include <libnormaliz/cone.h>
